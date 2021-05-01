@@ -1,5 +1,7 @@
 package ru.otus;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -16,11 +18,7 @@ public class Main {
         }
         int [] arr = {3,0,1,4,1,5,9,2,6};
         sort(arr);
-        for (int j : arr) {
-            System.out.print(j);
-            System.out.print(" ");
-        }
-        System.out.println();
+        System.out.println("arr = " + Arrays.toString(arr));
     }
     private static void swap(int []arr, int a, int b)
     {
